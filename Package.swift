@@ -11,7 +11,7 @@ let package = Package(
             ),
     ],
     dependencies : [
-        .package(name: "sourcegear-bridge-lib-resolve-jumptable", url: "https://github.com/ericsink/sourcegear-bridge-lib-resolve-jumptable"),
+        .package(name: "sourcegear-bridge-lib-resolve-jumptable", url: "https://github.com/ericsink/sourcegear-bridge-lib-resolve-jumptable" from: "0.2.0"),
     ],
     targets : [
         .target(
